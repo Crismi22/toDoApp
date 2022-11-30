@@ -1,13 +1,22 @@
-import Footer  from "./Footer";
+import { FC } from "react";
+
+import Footer from "./Footer";
 import Header from "./Header";
 import Main from "./Main";
-import Navbar from "./Navbar";
+import NavBar from "./Navbar";
 
-
-const Navbar = () => {
+type Props = {
+  onChangePage: (page: string) => void;
+};
+const Layout: FC<Props> = ({ onChangePage }) => {
   return (
-    <div className="navbar">
-     
+    <div className="layout">
+      <Header />
+      <NavBar onChangePage={onChangePage} />
+      <Main />
+      <Footer />
     </div>
-  )
-}
+  );
+};
+
+export default Layout;
