@@ -1,11 +1,9 @@
-import Layout from "../../components/layout";
+const AddTask = () => {
 
-function AddTask() {
-  return (
-    <div className="addTask">
-      <Layout />
-    </div>
-  );
+  return(
+      <div>Estoy en AddTask</div>
+  )
+
 }
 
-export default AddTask;
+export { AddTask }

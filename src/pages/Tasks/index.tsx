@@ -1,11 +1,9 @@
-import Layout from "../../components/layout";
+const Tasks = () => {
 
-function Tasks() {
-  return (
-    <div className="task">
-      <Layout />
-    </div>
-  );
+  return(
+      <div>Estoy en lista de tareas</div>
+  )
+
 }
 
-export default Tasks;
+export { Tasks }

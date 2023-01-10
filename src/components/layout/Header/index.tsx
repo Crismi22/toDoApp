@@ -1,5 +1,12 @@
-function Header() {
-  return <header className="header">TodoApp</header>;
-}
+import { FC } from "react";
+import { Menu } from "../Menu";
 
-export default Header;
+const Header: FC = () => {
+  return (
+    <header className="main-header">
+      <div className="container">Header</div>
+    </header>
+  );
+};
+
+export { Header };

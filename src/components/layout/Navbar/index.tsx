@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import Navbar from "react-bootstrap/Navbar";
+import Navbar from "react-bootstrap/Navbar"
 
 type Props = {
   onChangePage: (page: string) => void;
@@ -16,4 +16,4 @@ const NavBar: FC<Props> = ({ onChangePage }) => {
 
 };
 
-export default Navbar;
+export default NavBar;

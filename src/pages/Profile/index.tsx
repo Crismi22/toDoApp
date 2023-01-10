@@ -1,11 +1,9 @@
-import Layout from "../../components/layout";
+const Profile = () => {
 
-function Profile() {
-  return (
-    <div className="profile">
-      <Layout />
-    </div>
-  );
+  return(
+      <div>Estoy en Profile</div>
+  )
+
 }
 
-export default Profile;
+export { Profile }

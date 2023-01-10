@@ -1,5 +1,21 @@
-function Main() {
-  return <div className="main"></div>;
+import { FC, ReactNode } from "react"
+
+type Props = {
+    children: ReactNode
+    className?: string
 }
 
-export default Main;
+
+const Main: FC<Props> = ({ children, className }) => {
+
+    return (
+        <>
+            <main className={className}>
+                {children}
+            </main>
+        </>
+    )
+
+}
+
+export { Main }

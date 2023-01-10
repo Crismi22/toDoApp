@@ -1,16 +1,5 @@
-import { FC } from "react";
-import Layout from "../../components/layout";
-
-type Props = {
-  onChangePage: (page: string) => void;
-};
-const Login: FC<Props> = (props) => {
-  const { onChangePage } = props;
-  return (
-    <div className="login">
-      <Layout onChangePage={onChangePage} />
-    </div>
-  );
+const Login = () => {
+  return <form action="">Login</form>;
 };
 
-export default Login;
+export { Login };

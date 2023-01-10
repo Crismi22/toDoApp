@@ -1,11 +1,9 @@
-import Layout from "../../components/layout";
+const AddCategory = () => {
 
-function AddCategory() {
-  return (
-    <div className="addCategory">
-      <Layout />
-    </div>
-  );
+  return(
+      <div>Estoy en AddCategory</div>
+  )
+
 }
 
-export default AddCategory;
+export { AddCategory }
